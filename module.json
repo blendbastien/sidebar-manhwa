@@ -1,0 +1,14 @@
+{
+  "id": "sidebar-manhwa",
+  "title": "Sidebar Manhwa",
+  "description": "Onglet Playlists repensé : cartes habillées (image, icônes, dégradé), étiquettes et vues intelligentes, favoris, sélection multiple, tri. Lecteur « En écoute » et votes pour les joueurs. Aucune playlist n'est modifiée.",
+  "version": "1.0.0",
+  "authors": [{ "name": "Bastien" }],
+  "compatibility": { "minimum": "13", "verified": "13.351" },
+  "esmodules": ["scripts/main.js"],
+  "styles": ["styles/sidebar.css"],
+  "socket": true,
+  "url": "https://github.com/blendbastien/sidebar-manhwa",
+  "manifest": "https://github.com/blendbastien/sidebar-manhwa/releases/latest/download/module.json",
+  "download": "https://github.com/blendbastien/sidebar-manhwa/releases/download/v1.0.0/sidebar-manhwa.zip"
+}
