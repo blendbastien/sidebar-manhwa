@@ -1,14 +1,34 @@
 {
   "id": "sidebar-manhwa",
-  "title": "Sidebar Manhwa",
-  "description": "Onglet Playlists repensé : cartes habillées (image, icônes, dégradé), étiquettes et vues intelligentes, favoris, sélection multiple, tri. Lecteur « En écoute » et votes pour les joueurs. Aucune playlist n'est modifiée.",
-  "version": "1.0.0",
-  "authors": [{ "name": "Bastien" }],
-  "compatibility": { "minimum": "13", "verified": "13.351" },
-  "esmodules": ["scripts/main.js"],
-  "styles": ["styles/sidebar.css"],
+  "title": "Interface - Manhwa",
+  "description": "Onglets Playlists, Scènes, Journal, Objets et Chat repensés. Playlists : cartes habillées, étiquettes, vues, favoris, sélection multiple (fondus natifs). Scènes : échelles, cadres par monde, Atlas, recherche, favorites, passages, mémo MJ, fond des cartes ; clic droit simple ou complet ; barres d'outils masquées par défaut. Journal façon Roll20 : fiche « Document » (image, description, notes du MJ, montrer aux joueurs, joueurs / éditeurs, tags, dupliquer / archiver / supprimer), bouton « Document » dans l'onglet, liste simple et rapide, une icône et une couleur par type d'entrée (gérés par le MJ), vignettes, marque « visible des joueurs » ; même habillage pour Objets et Chat, dans la DA du Catalogue. Aucun document n'est modifié. Chroniques : journaux illustrés façon journal papier (couverture portrait ou paysage, gros titre, blocs modifiables, catégories, date du jeu liée au calendrier d'Horlogia, accès par groupes, « Montrer aux joueurs » presque plein écran, Kiosque compact : filtres Jour / Mois / Année cumulables, regroupement par date, liste ou grille S/M/L ; réglages en onglets ; police, taille, couleur et surligneur directement dans la barre de l'éditeur).",
+  "version": "1.30.2",
+  "authors": [
+    {
+      "name": "Bastien"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351"
+  },
+  "esmodules": [
+    "scripts/main.js",
+    "scripts/scenes.js",
+    "scripts/journal.js",
+    "scripts/doc-sheet.js",
+    "scripts/scenenav.js",
+    "scripts/chronicle.js"
+  ],
+  "styles": [
+    "styles/sidebar.css",
+    "styles/scenes.css",
+    "styles/journal.css",
+    "styles/chronicle.css",
+    "styles/header-theme.css"
+  ],
   "socket": true,
   "url": "https://github.com/blendbastien/sidebar-manhwa",
   "manifest": "https://github.com/blendbastien/sidebar-manhwa/releases/latest/download/module.json",
-  "download": "https://github.com/blendbastien/sidebar-manhwa/releases/download/v1.0.0/sidebar-manhwa.zip"
+  "download": "https://github.com/blendbastien/sidebar-manhwa/releases/latest/download/sidebar-manhwa.zip"
 }
